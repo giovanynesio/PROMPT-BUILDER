@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "standalone": "node server.js",
+    "dev": "vite",
+    "build": "vite build --base ./ --emptyOutDir false",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {}
+}
